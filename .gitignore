@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pkl
+.env
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints
+
+# Models
+models/*.pkl
+
+# VSCode
+.vscode/
+
+# Streamlit
+.streamlit/
