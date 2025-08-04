@@ -52,3 +52,8 @@ Pre-trained machine learning models are used to make predictions, which are disp
 ```bash
 git clone https://github.com/your-username/chronic_disease_prediction.git
 cd chronic_disease_prediction
+### Step 2: Create a Virtual Environment (optional but recommended)
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+
