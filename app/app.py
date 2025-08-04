@@ -1,10 +1,10 @@
 import streamlit as st
 import joblib
-from utils import preprocess_diabetes_input, preprocess_heart_input
+from chronic_disease_prediction.utils import preprocess_diabetes_input, preprocess_heart_input
 
 # Load models
 diabetes_model = joblib.load("../models/diabetes_model.pkl")
-heart_model = joblib.load("D:/chronic disease prediction/chronic_disease_prediction/models/heart_model.pkl")
+heart_model = joblib.load("../models/heart_model.pkl")
 
 # Sidebar for selection
 st.sidebar.title("Disease Prediction App")
